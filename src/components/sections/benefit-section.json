@@ -1,0 +1,33 @@
+{
+  "collectionName": "components_sections_benefit_sections",
+  "info": {
+    "displayName": "BenefitSection",
+    "icon": "asterisk"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true,
+      "default": "Lợi ích khi tham gia"
+    },
+    "description": {
+      "type": "text"
+    },
+    "buttonTitle": {
+      "type": "string",
+      "default": "Đăng ký",
+      "required": true
+    },
+    "buttonLink": {
+      "type": "string",
+      "default": "#"
+    },
+    "benefits": {
+      "type": "component",
+      "repeatable": true,
+      "component": "items.benefit-item",
+      "required": true
+    }
+  }
+}

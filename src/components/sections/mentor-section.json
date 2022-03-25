@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_sections_mentor_sections",
+  "info": {
+    "displayName": "MentorSection",
+    "icon": "users",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true,
+      "default": "Danh sách mentor"
+    },
+    "description": {
+      "type": "text"
+    },
+    "mentors": {
+      "type": "component",
+      "repeatable": true,
+      "component": "items.mentor-item",
+      "required": true
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_sections_subject_sections",
+  "info": {
+    "displayName": "SubjectSection",
+    "icon": "clipboard-list",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true,
+      "default": "Nội dung đào tạo"
+    },
+    "description": {
+      "type": "text"
+    },
+    "subjects": {
+      "type": "component",
+      "repeatable": true,
+      "component": "items.subject-item",
+      "required": true
+    }
+  }
+}

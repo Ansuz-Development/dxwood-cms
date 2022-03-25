@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_sections_event_sections",
+  "info": {
+    "displayName": "EventSection",
+    "icon": "bullhorn"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "default": "Tin tức và sự kiện",
+      "required": true
+    },
+    "description": {
+      "type": "text"
+    }
+  }
+}

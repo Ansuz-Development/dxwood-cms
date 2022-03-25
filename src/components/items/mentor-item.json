@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_items_mentor_items",
+  "info": {
+    "displayName": "MentorItem",
+    "icon": "user-graduate"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "avatar": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    }
+  }
+}

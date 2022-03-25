@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_sections_company_sections",
+  "info": {
+    "displayName": "CompanySection",
+    "icon": "archway"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "default": "Đơn vị triển khai",
+      "required": true
+    },
+    "description": {
+      "type": "text"
+    },
+    "companies": {
+      "type": "component",
+      "repeatable": true,
+      "component": "items.company-item",
+      "required": true
+    }
+  }
+}

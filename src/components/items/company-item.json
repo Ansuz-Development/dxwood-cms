@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_items_company_items",
+  "info": {
+    "displayName": "CompanyItem",
+    "icon": "building"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "homepage": {
+      "type": "string"
+    },
+    "logo": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    }
+  }
+}

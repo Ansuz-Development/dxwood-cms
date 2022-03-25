@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_items_benefit_items",
+  "info": {
+    "displayName": "BenefitItem",
+    "icon": "fan",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true,
+      "default": "Lợi ích khi tham gia"
+    },
+    "description": {
+      "type": "text"
+    },
+    "icon": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    }
+  }
+}
