@@ -25,6 +25,11 @@
         "videos",
         "audios"
       ]
+    },
+    "steps": {
+      "type": "component",
+      "repeatable": true,
+      "component": "items.step-item"
     }
   }
 }
