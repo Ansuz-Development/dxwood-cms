@@ -1,4 +1,5 @@
 import AuthLogo from './extensions/logo.png';
+import MenuLogo from './extensions/menu-logo.png';
 import favicon from './extensions/favicon.ico';
 
 export default {
@@ -35,7 +36,7 @@ export default {
       logo: AuthLogo,
     },
     menu: {
-      logo: AuthLogo,
+      logo: MenuLogo,
     },
     head: {
       favicon: favicon,
