@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_items_contact_items",
+  "info": {
+    "displayName": "ContactItem",
+    "icon": "address-book"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "address": {
+      "type": "string"
+    },
+    "phone": {
+      "type": "string"
+    },
+    "email": {
+      "type": "email"
+    }
+  }
+}
