@@ -20,6 +20,17 @@
       "repeatable": true,
       "component": "items.subject-item",
       "required": true
+    },
+    "buttonTitle": {
+      "type": "string",
+      "default": "Tải nội dung đào tạo"
+    },
+    "contentFile": {
+      "allowedTypes": [
+        "files"
+      ],
+      "type": "media",
+      "multiple": false
     }
   }
 }
